@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tennis Score Manager</title>
+    <script src="script.js"></script>
+</head>
+<body>
+
+<h2>Tennis Score Manager</h2>
+
+<div>
+    <label for="player1">Player 1:</label>
+    <input type="text" id="player1" name="player1" value="Player 1">
+    <button onclick="updateScore('player1')">Add Point</button>
+</div>
+
+<div>
+    <label for="player2">Player 2:</label>
+    <input type="text" id="player2" name="player2" value="Player 2">
+    <button onclick="updateScore('player2')">Add Point</button>
+</div>
+
+<div>
+    <h3>Score: <span id="score">0 - 0</span></h3>
+</div>
+
+</body>
+</html>
